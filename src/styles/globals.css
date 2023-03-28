@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #c5adad;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.simple{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn button{
+  padding: 12px;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.login{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.frm{
+  text-align: center;
+}
+
+input{
+  padding: 10px;
+  color: black;
+  margin-top: 5px;
+}
+
+::placeholder{
+  color: black;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.btn-log{
+
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.register{
+  text-align: center;
+}
+
+.btn-register{
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.passmatch{
+  color: black;
+}
